@@ -1,0 +1,43 @@
+<div class="w-full">
+    <h2 class="text-center text-blue-400 font-bold text-2xl uppercase mb-10">ADd products</h2>
+    <div class="bg-white p-10 rounded-lg shadow md:w-3/4 mx-auto lg:w-1/2">
+      <form action="" #formAdd="ngForm" (ngSubmit)="onSubmit()">
+        <div   class="mb-5" >
+          <label for="name" class="block mb-2 font-bold text-gray-600">Name</label>
+          <input required minlength="2" type="text"  name="name"
+          #name="ngModel"
+          [(ngModel)]="product.name"  placeholder="Put in your fullname." class="border border-gray-300 shadow p-3 w-full rounded mb-">
+        </div>
+        <div *ngIf="name.invalid && (name.dirty || name.touched )" class="alert">
+            <div *ngIf="name.errors?.['required']" class="alert">
+                Name is required
+
+            </div>
+            <div *ngIf="name.errors?.['minlength']" class="alert alert danger">
+                Nhap toi thieu 2 ky tu
+            </div>
+
+
+        </div>
+
+        <div class="mb-5">
+            <label for="name" class="block mb-2 font-bold text-gray-600">Img</label>
+            <input type="file" id="img" name="img"  class="border border-gray-300 shadow p-3 w-full rounded mb-">
+          </div>
+          <div class="mb-5">
+            <label for="name" class="block mb-2 font-bold text-gray-600">Price</label>
+            <input required number type="text" id="name" name="price" [(ngModel)]="product.price" #price="ngModel"  ngModel placeholder="Put in your price." class="border border-gray-300 shadow p-3 w-full rounded mb-">
+          </div>
+          <div class="mb-5">
+            <label for="name" class="block mb-2 font-bold text-gray-600">Desc</label>
+            <input type="text" id="desc" name="description"  [(ngModel)]="product.description" placeholder="Put in your desc." #description="ngModel" class="border border-gray-300 shadow p-3 w-full rounded mb-">
+          </div>
+
+      
+
+        <button [disabled]="!formAdd.valid" class="block w-full bg-blue-500 text-white font-bold p-4 rounded-lg">Submit</button>
+      </form>
+    </div>
+  </div>
+
+

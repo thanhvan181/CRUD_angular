@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "productA",
+      "price": 20,
+      "img": "https://www.google.com/search?q=%E1%BA%A3nh+transparent&tbm=isch&source=iu&ictx=1&vet=1&fir=ISxEHSti_KWz9M%252C18jyUTd0aKB7TM%252C_%253BqvZCfOgdJBIlhM%252CeSBB2IMi7fNXKM%252C_%253BNYx4_xnbRu8TRM%252C71hROgGJTmnwgM%252C_%253BOEbiHz5W3Dc5OM%252CyLo3nDBrTg6AQM%252C_%253BbTTH-XsofTSt0M%252CWqXDRNJpwO-KZM%252C_%253Bbjwr4rSR0hkiVM%252Cj-zyDolSdqqDGM%252C_%253B8vHDrfmcEPTZNM%252CI6Z0iPdDt_MWnM%252C_%253BnoOtdHyDkbnfzM%252CLVHTLoRhKF1TQM%252C_%253BtwYGJwH4jrg_YM%252CKZ4z1uUhE9XtvM%252C_%253BrEaCxAKh5cHI4M%252Cr4TjXC5nOnVZyM%252C_%253B_SEvrq7tN_tKmM%252CU7WSTSkJHEH1sM%252C_%253BZkoDTtkx5HpZTM%252Cds68iP5CC-I-5M%252C_%253BXChrcVVBJCRHPM%252CH36st3VpuuB9QM%252C_%253Bi7xrj69jNWx7PM%252CvTOLfqNAyVldVM%252C_%253BvPeuAdrNptFv6M%252CLz2M0wTVRrHgiM%252C_&usg=AI4_-kTRwldPp6BP-apG9I-NNCWaYQiDMw&sa=X&ved=2ahUKEwiilqOJpLL4AhXWEIgKHcvGBbwQ9QF6BAgVEAE#imgrc=rEaCxAKh5cHI4M&imgdii=heZUCU_hpDU7OM",
+      "description": "San pham chat luong"
+    },
+    {
+      "id": 2,
+      "name": "productB",
+      "price": "22",
+      "img": "https://www.google.com/search?q=%E1%BA%A3nh+transparent&tbm=isch&source=iu&ictx=1&vet=1&fir=ISxEHSti_KWz9M%252C18jyUTd0aKB7TM%252C_%253BqvZCfOgdJBIlhM%252CeSBB2IMi7fNXKM%252C_%253BNYx4_xnbRu8TRM%252C71hROgGJTmnwgM%252C_%253BOEbiHz5W3Dc5OM%252CyLo3nDBrTg6AQM%252C_%253BbTTH-XsofTSt0M%252CWqXDRNJpwO-KZM%252C_%253Bbjwr4rSR0hkiVM%252Cj-zyDolSdqqDGM%252C_%253B8vHDrfmcEPTZNM%252CI6Z0iPdDt_MWnM%252C_%253BnoOtdHyDkbnfzM%252CLVHTLoRhKF1TQM%252C_%253BtwYGJwH4jrg_YM%252CKZ4z1uUhE9XtvM%252C_%253BrEaCxAKh5cHI4M%252Cr4TjXC5nOnVZyM%252C_%253B_SEvrq7tN_tKmM%252CU7WSTSkJHEH1sM%252C_%253BZkoDTtkx5HpZTM%252Cds68iP5CC-I-5M%252C_%253BXChrcVVBJCRHPM%252CH36st3VpuuB9QM%252C_%253Bi7xrj69jNWx7PM%252CvTOLfqNAyVldVM%252C_%253BvPeuAdrNptFv6M%252CLz2M0wTVRrHgiM%252C_&usg=AI4_-kTRwldPp6BP-apG9I-NNCWaYQiDMw&sa=X&ved=2ahUKEwiilqOJpLL4AhXWEIgKHcvGBbwQ9QF6BAgVEAE#imgrc=rEaCxAKh5cHI4M&imgdii=heZUCU_hpDU7OM",
+      "description": "San pham chat luong"
+    },
+    {
+      "id": 3,
+      "name": "productC",
+      "price": 20,
+      "img": "https://www.google.com/search?q=%E1%BA%A3nh+transparent&tbm=isch&source=iu&ictx=1&vet=1&fir=ISxEHSti_KWz9M%252C18jyUTd0aKB7TM%252C_%253BqvZCfOgdJBIlhM%252CeSBB2IMi7fNXKM%252C_%253BNYx4_xnbRu8TRM%252C71hROgGJTmnwgM%252C_%253BOEbiHz5W3Dc5OM%252CyLo3nDBrTg6AQM%252C_%253BbTTH-XsofTSt0M%252CWqXDRNJpwO-KZM%252C_%253Bbjwr4rSR0hkiVM%252Cj-zyDolSdqqDGM%252C_%253B8vHDrfmcEPTZNM%252CI6Z0iPdDt_MWnM%252C_%253BnoOtdHyDkbnfzM%252CLVHTLoRhKF1TQM%252C_%253BtwYGJwH4jrg_YM%252CKZ4z1uUhE9XtvM%252C_%253BrEaCxAKh5cHI4M%252Cr4TjXC5nOnVZyM%252C_%253B_SEvrq7tN_tKmM%252CU7WSTSkJHEH1sM%252C_%253BZkoDTtkx5HpZTM%252Cds68iP5CC-I-5M%252C_%253BXChrcVVBJCRHPM%252CH36st3VpuuB9QM%252C_%253Bi7xrj69jNWx7PM%252CvTOLfqNAyVldVM%252C_%253BvPeuAdrNptFv6M%252CLz2M0wTVRrHgiM%252C_&usg=AI4_-kTRwldPp6BP-apG9I-NNCWaYQiDMw&sa=X&ved=2ahUKEwiilqOJpLL4AhXWEIgKHcvGBbwQ9QF6BAgVEAE#imgrc=rEaCxAKh5cHI4M&imgdii=heZUCU_hpDU7OM",
+      "description": "San pham chat luong"
+    },
+    {
+      "name": "hoanguyen",
+      "img": "",
+      "price": "30.000",
+      "description": "ddd",
+      "id": 6
+    }
+  ]
+}
